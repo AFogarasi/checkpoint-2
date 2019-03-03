@@ -66,6 +66,12 @@ header {
     grid-column: 1 / 2; 
   }    
 
+.grow:hover {
+    -webkit-transform: scale(2);
+    -ms-transform: scale(2);
+    transform: scale(2) translate(100px, 100px);
+}
+
 #captain-charter {
     grid-row: 2 / 3;
     grid-column: 1 / 2;

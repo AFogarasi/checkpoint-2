@@ -44,6 +44,7 @@ h4 {
     color: aliceblue;
     text-shadow: 1px 1px black;
     font-family: 'Garamond'; font-size: 30px;
+    margin: 0px auto 40px;
 }
 
 .flex-header {
@@ -104,7 +105,7 @@ h4 {
 
 @media (max-width: 530px) {
   
-  .featured_buttons {
+.featured_buttons {
       position: absolute;
       top: 19%;
       left: 50%;
@@ -140,6 +141,7 @@ h4 {
     align-items: center;
     background-color: rgb(70, 144, 171);
     width: 350px;
+    height: 400px;
     border-radius: 5px;
     font-size: 12px;
     margin: 50px auto;
